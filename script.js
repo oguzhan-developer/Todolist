@@ -24,15 +24,15 @@ function addItem(text){
 
 function addItemEvent(item){
     item.addEventListener("click",()=>{
-        if(item.style.textDecoration == "none")
+        if(item.style.textDecoration == "")
         {
             item.style.textDecoration = "line-through"
             item.style.backgroundColor = "#1B9C85"
         }
         else
         {
-            item.style.textDecoration = "none"
-            item.style.backgroundColor = "#F0F0F0"
+            item.style.textDecoration = ""
+            item.style.backgroundColor = ""
         }
     })
 }

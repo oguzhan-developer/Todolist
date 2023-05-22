@@ -42,7 +42,7 @@ body {
 }
 
 ul li {
-    transition: 0.3s linear
+    transition-duration: 0.3s;
 }
 
 ul li:hover{
